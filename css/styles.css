@@ -5,28 +5,34 @@
  }
 ul {
 list-style-type: none;
-
 }
+
 a {text-decoration: none;}
 
- .header{
+ .header {
     color: #2E2F42;
-    background-color: #E7E9FC;
     
  }
- .logo-link{
+
+.logo-link {
     color: #4D5AE5;
     font-family: Raleway;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.33;
-        
- }
- .logo-span{
+  }
+.logo-link .logo-span:hover {
+   color: #404BBF;
+}
+.logo-link .logo-span:focus {
+   color: #404BBF;
+}
+
+.logo-span{
 color: #2E2F42;
  }
  
- .header-link {
+.header-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -34,15 +40,22 @@ color: #2E2F42;
  }
 .header-link:hover {
 color: #404BBF;
- }
+}
+.header-link:focus {
+color: #404BBF;
+}
+
  .address-link {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02;
  }
-.address-link .button-main:hover {
-    color: #404BBF;
+.address-link:hover{
+color: #404BBF;
+}
+.address-link:focus {
+color: #404BBF;
 }
 
 .section-one{
@@ -55,7 +68,6 @@ color: #FFFFFF;
    font-size: 56px;
    font-weight: 700;
    line-height: 1;
-   letter-spacing: 0.02em;
 }
 
 
@@ -67,6 +79,86 @@ background-color : #4D5AE5;
    line-height: 1.5;
    cursor: pointer;
 }
- :focus {
-background-color: #404BBF;
- }
+.button-main:hover {
+   background-color: #404BBF;
+}
+.button-main:focus {
+   background-color: #404BBF;
+}
+.section-two {
+
+}
+.header-three {
+color:#2E2F42
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+}
+.header-description{
+      font-size: 16px;
+      line-height: 1.5;
+}
+.section-three {
+
+}
+
+.header-we-doing {
+   color: #2E2F42
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.1;
+
+}
+.section-four{
+background-color: #F4F4FD;
+}
+
+.header-our-team{
+color: #2E2F42;
+}
+.name {
+   color:#2E2F42;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+}
+.profesion {
+   color: #434455;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+}
+
+.desctibe-team {
+   background-color: #FFFFFF;
+}
+.footer {
+   background-color: #2E2F42;
+}
+.span-logo-footer {
+   color: #F4F4FD;
+}
+.text-footer { 
+   color: #E7E9FC;
+      font-size: 16px;
+      line-height: 1.5;
+}
+.button-section{
+
+}
+.portfolio-section {
+}
+.name-project {
+color: #2E2F42;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.2;
+   
+}
+.branch {
+color: #434455;
+
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.5;
+}
