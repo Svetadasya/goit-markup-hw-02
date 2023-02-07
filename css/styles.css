@@ -1,7 +1,20 @@
+ :root {
+   --color-primary: #434455;
+   --color-white: #ffffff;
+   --color-navyblue: #2E2F42;
+   --color-iris: #4D5AE5;
+   --color-ocean: #404BBF;
+   --color-cloud: #F4F4FD;
+   --color-conflover: #E7E9FC;
+ }
+ 
  body{
-    color: #434455;
-    background-color: #FFFFFF;
+    color: var(--color-primary);
+    background-color: var(--color-white);
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5;
  }
 ul {
 list-style-type: none;
@@ -10,61 +23,61 @@ list-style-type: none;
 a {text-decoration: none;}
 
  .header {
-    color: #2E2F42;
+    color: var(--color-navyblue);
     
  }
 
 .logo-link {
-    color: #4D5AE5;
+    color: var(--color-iris);
     font-family: Raleway;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.33;
   }
 .logo-link .logo-span:hover {
-   color: #404BBF;
+   color: var(--color-ocean);
 }
 .logo-link .logo-span:focus {
-   color: #404BBF;
+   color: var(--color-ocean);
 }
 
 .logo-span{
-color: #2E2F42;
+color: var(--color-navyblue);
  }
  
 .header-link {
-    color: #2E2F42;
+   color: var(--color-navyblue);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
  }
 .header-link:hover {
-color: #404BBF;
+color: var(--color-ocean);
 }
 .header-link:focus {
-color: #404BBF;
+color: var(--color-ocean);
 }
 
  .address-link {
-    color: #434455;
+    color: var(--color-primary);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02;
  }
 .address-link:hover{
-color: #404BBF;
+color: var(--color-ocean);
 }
 .address-link:focus {
-color: #404BBF;
+color: var(--color-ocean);
 }
 
 .section-one{
-background-color: #2E2F42;
+background-color: var(--color-navyblue);
 
 }
 
 .hero-title {
-color: #FFFFFF;
+color: var(--color-white);
    font-size: 56px;
    font-weight: 700;
    line-height: 1;
@@ -72,24 +85,24 @@ color: #FFFFFF;
 
 
 .button-main { 
-color: #FFFFFF;
-background-color : #4D5AE5;
+color: var(--color-white);
+background-color: var(--color-iris);
    font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
    cursor: pointer;
 }
 .button-main:hover {
-   background-color: #404BBF;
+   background-color: var(--color-ocean);
 }
 .button-main:focus {
-   background-color: #404BBF;
+   background-color: var(--color-ocean);
 }
 .section-two {
 
 }
 .header-three {
-color:#2E2F42
+color: var(--color-navyblue);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -101,62 +114,76 @@ line-height: 1.2;
 .section-three {
 
 }
-
 .header-we-doing {
-   color: #2E2F42
+   color: var(--color-navyblue);
    font-size: 36px;
    font-weight: 700;
    line-height: 1.1;
 
 }
 .section-four{
-background-color: #F4F4FD;
+background-color: var(--color-cloud);
 }
 
 .header-our-team{
-color: #2E2F42;
+color: var(--color-navyblue);
 }
 .name {
-   color:#2E2F42;
+   color: var(--color-navyblue);
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
 }
 .profesion {
-   color: #434455;
+   color: var(--color-primary);
       font-size: 16px;
       font-weight: 400;
       line-height: 1.5;
 }
 
 .desctibe-team {
-   background-color: #FFFFFF;
+   background-color: var(--color-white);
 }
 .footer {
-   background-color: #2E2F42;
+   background-color: var(--color-navyblue);
 }
 .span-logo-footer {
-   color: #F4F4FD;
+   color: var(--color-cloud);
 }
 .text-footer { 
-   color: #E7E9FC;
+   color: var(--color-conflover);
       font-size: 16px;
       line-height: 1.5;
 }
 .button-section{
 
 }
-.portfolio-section {
+.portfolio-button {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+   color: var(--color-iris);
+   background-color: var(--color-cloud);
+   border: var(--color-conflover);  
 }
+.portfolio-button:hover {
+   color: var(--color-white);
+   background-color: var(--color-ocean);
+}
+.portfolio-button:focus {
+   color: var(--color-white);
+   background-color: var(--color-ocean);
+}
+.portfolio-section {}
 .name-project {
-color: #2E2F42;
+color: var(--color-navyblue);
    font-size: 20px;
    font-weight: 500;
    line-height: 1.2;
-   
+
 }
 .branch {
-color: #434455;
+color: var(--color-primary);
 
    font-size: 16px;
    font-weight: 400;
