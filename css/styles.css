@@ -14,7 +14,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,5;
+    
     letter-spacing: 0.02;
  }
 
@@ -29,6 +29,7 @@
         font-size: 18px;
         font-weight: 800;
         line-height: 1.33;
+        letter-spacing: 0.03;
       text-decoration: none;
   }
 .logo-link .logo-span:hover {
@@ -46,7 +47,9 @@ color: var(--color-navyblue);
 }
 .header-link {
    color: var(--color-navyblue);
-    font-weight: 500;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.02;
    text-decoration: none;
  }
 .header-link:hover {
@@ -56,8 +59,10 @@ color: var(--color-ocean);
 color: var(--color-ocean);
 }
 
- .address-link {
-    color: var(--color-primary);
+.address-link {
+   color: var(--color-primary);
+   line-height: 1.5;
+   letter-spacing: 0.02;
    text-decoration: none;
     
  }
@@ -70,21 +75,24 @@ color: var(--color-ocean);
 
 .section-one{
 background-color: var(--color-navyblue);
-
 }
 
 .hero-title {
 color: var(--color-white);
    font-size: 56px;
    font-weight: 700;
-   line-height: 1;
+   line-height: 1.07;
+   letter-spacing: 0.02;
 }
 
 
 .button-main { 
 color: var(--color-white);
 background-color: var(--color-iris);
+   font-family: 'Roboto', sans-serif;
    font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04;
    cursor: pointer;
 }
 .button-main:hover {
@@ -99,35 +107,38 @@ color: var(--color-navyblue);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
+letter-spacing: 0.02;
 }
 .header-description{
       font-size: 16px;
       line-height: 1.5;
+      letter-spacing: 0.02;
 }
 
-.header-we-doing {
+.header-we-doing .header-our-team {
    color: var(--color-navyblue);
    font-size: 36px;
    font-weight: 700;
-   line-height: 1.1;
+   line-height: 1.11;
+   letter-spacing: 0.02;
 
 }
 .section-four{
 background-color: var(--color-cloud);
 }
 
-.header-our-team{
-color: var(--color-navyblue);
-}
 .name {
    color: var(--color-navyblue);
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
+      letter-spacing: 0.02;
 }
 .profesion {
    color: var(--color-primary);
-      font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.02;
+
 }
 
 .desctibe-team {
@@ -141,15 +152,20 @@ color: var(--color-navyblue);
 }
 .text-footer { 
    color: var(--color-conflover);
-      font-size: 16px;
-      line-height: 1.5;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02;
 }
 
 .portfolio-button {
-      font-weight: 500;
    color: var(--color-iris);
    background-color: var(--color-cloud);
    border: var(--color-conflover);  
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.04;
 }
 .portfolio-button:hover {
    color: var(--color-white);
