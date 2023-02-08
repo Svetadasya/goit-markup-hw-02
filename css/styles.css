@@ -15,12 +15,8 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 1,5;
+    letter-spacing: 0.02;
  }
-ul {
-list-style-type: none;
-}
-
-a {text-decoration: none;}
 
  .header {
     color: var(--color-navyblue);
@@ -33,6 +29,7 @@ a {text-decoration: none;}
         font-size: 18px;
         font-weight: 800;
         line-height: 1.33;
+      text-decoration: none;
   }
 .logo-link .logo-span:hover {
    color: var(--color-ocean);
@@ -44,12 +41,13 @@ a {text-decoration: none;}
 .logo-span{
 color: var(--color-navyblue);
  }
- 
+.ul {
+   list-style-type: none;
+}
 .header-link {
    color: var(--color-navyblue);
-    font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+   text-decoration: none;
  }
 .header-link:hover {
 color: var(--color-ocean);
@@ -60,9 +58,8 @@ color: var(--color-ocean);
 
  .address-link {
     color: var(--color-primary);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02;
+   text-decoration: none;
+    
  }
 .address-link:hover{
 color: var(--color-ocean);
@@ -87,9 +84,7 @@ color: var(--color-white);
 .button-main { 
 color: var(--color-white);
 background-color: var(--color-iris);
-   font-size: 16px;
    font-weight: 500;
-   line-height: 1.5;
    cursor: pointer;
 }
 .button-main:hover {
@@ -98,9 +93,7 @@ background-color: var(--color-iris);
 .button-main:focus {
    background-color: var(--color-ocean);
 }
-.section-two {
 
-}
 .header-three {
 color: var(--color-navyblue);
 font-size: 20px;
@@ -111,9 +104,7 @@ line-height: 1.2;
       font-size: 16px;
       line-height: 1.5;
 }
-.section-three {
 
-}
 .header-we-doing {
    color: var(--color-navyblue);
    font-size: 36px;
@@ -136,9 +127,7 @@ color: var(--color-navyblue);
 }
 .profesion {
    color: var(--color-primary);
-      font-size: 16px;
       font-weight: 400;
-      line-height: 1.5;
 }
 
 .desctibe-team {
@@ -155,13 +144,9 @@ color: var(--color-navyblue);
       font-size: 16px;
       line-height: 1.5;
 }
-.button-section{
 
-}
 .portfolio-button {
-      font-size: 16px;
       font-weight: 500;
-      line-height: 1.5;
    color: var(--color-iris);
    background-color: var(--color-cloud);
    border: var(--color-conflover);  
@@ -173,8 +158,9 @@ color: var(--color-navyblue);
 .portfolio-button:focus {
    color: var(--color-white);
    background-color: var(--color-ocean);
+   cursor: pointer;
 }
-.portfolio-section {}
+
 .name-project {
 color: var(--color-navyblue);
    font-size: 20px;
@@ -184,8 +170,5 @@ color: var(--color-navyblue);
 }
 .branch {
 color: var(--color-primary);
-
-   font-size: 16px;
-   font-weight: 400;
-   line-height: 1.5;
+   
 }
