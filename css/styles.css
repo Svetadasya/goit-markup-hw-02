@@ -12,29 +12,23 @@
     color: var(--color-primary);
     background-color: var(--color-white);
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    
-    letter-spacing: 0.02;
+    font-size: 16px;  
  }
 
  .header {
-    color: var(--color-navyblue);
-    
+    color: var(--color-navyblue);  
  }
 
 .logo-link {
     color: var(--color-iris);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif; 
         font-size: 18px;
         font-weight: 800;
         line-height: 1.33;
-        letter-spacing: 0.03;
+        letter-spacing: 0.03em;
       text-decoration: none;
+      text-transform: uppercase;
   }
-.logo-link .logo-span:hover {
-   color: var(--color-ocean);
-}
 .logo-link .logo-span:focus {
    color: var(--color-ocean);
 }
@@ -42,34 +36,29 @@
 .logo-span{
 color: var(--color-navyblue);
  }
-.ul {
+.ul{
    list-style-type: none;
 }
 .header-link {
    color: var(--color-navyblue);
    font-weight: 500;
    line-height: 1.5;
-   letter-spacing: 0.02;
+   letter-spacing: 0.02em;   
    text-decoration: none;
  }
-.header-link:hover {
-color: var(--color-ocean);
-}
-.header-link:focus {
+.header-link:hover, .header-link:focus {
 color: var(--color-ocean);
 }
 
 .address-link {
    color: var(--color-primary);
    line-height: 1.5;
-   letter-spacing: 0.02;
+   letter-spacing: 0.02em;
    text-decoration: none;
+   font-style: normal;
     
  }
-.address-link:hover{
-color: var(--color-ocean);
-}
-.address-link:focus {
+.address-link:hover, .address-link:focus {
 color: var(--color-ocean);
 }
 
@@ -82,7 +71,7 @@ color: var(--color-white);
    font-size: 56px;
    font-weight: 700;
    line-height: 1.07;
-   letter-spacing: 0.02;
+   letter-spacing: 0.02em;
 }
 
 
@@ -90,16 +79,29 @@ color: var(--color-white);
 color: var(--color-white);
 background-color: var(--color-iris);
    font-family: 'Roboto', sans-serif;
+   font-size: 16px;
    font-weight: 500;
    line-height: 1.5;
-   letter-spacing: 0.04;
+   letter-spacing: 0.04em;
    cursor: pointer;
 }
-.button-main:hover {
+.button-main:hover, .button-main:focus {
    background-color: var(--color-ocean);
 }
-.button-main:focus {
-   background-color: var(--color-ocean);
+.visually-hidden {
+position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;
+}
+.card{
+   text-decoration: none;
 }
 
 .header-three {
@@ -107,22 +109,22 @@ color: var(--color-navyblue);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
-letter-spacing: 0.02;
+letter-spacing: 0.02em;
 }
 .header-description{
       font-size: 16px;
       line-height: 1.5;
-      letter-spacing: 0.02;
+      letter-spacing: 0.02em;
 }
 
-.header-we-doing .header-our-team {
+.header-we-doing, .header-our-team{
    color: var(--color-navyblue);
    font-size: 36px;
    font-weight: 700;
    line-height: 1.11;
-   letter-spacing: 0.02;
-
+   letter-spacing: 0.02em;
 }
+
 .section-four{
 background-color: var(--color-cloud);
 }
@@ -132,13 +134,12 @@ background-color: var(--color-cloud);
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
-      letter-spacing: 0.02;
+      letter-spacing: 0.02em;
 }
-.profesion {
+.profesion{
    color: var(--color-primary);
    line-height: 1.5;
-   letter-spacing: 0.02;
-
+   letter-spacing: 0.02em;
 }
 
 .desctibe-team {
@@ -154,27 +155,23 @@ background-color: var(--color-cloud);
    color: var(--color-conflover);
    font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.02;
+   letter-spacing: 0.02em;
 }
 
 .portfolio-button {
    color: var(--color-iris);
    background-color: var(--color-cloud);
    border: var(--color-conflover);  
-      font-family: Roboto;
+      font-family: Roboto, sans-serif;
       font-size: 16px;
       font-weight: 500;
       line-height: 1.5;
-      letter-spacing: 0.04;
+      letter-spacing: 0.04em;
+      cursor: pointer;
 }
-.portfolio-button:hover {
+.portfolio-button:hover, .portfolio-button:focus{
    color: var(--color-white);
    background-color: var(--color-ocean);
-}
-.portfolio-button:focus {
-   color: var(--color-white);
-   background-color: var(--color-ocean);
-   cursor: pointer;
 }
 
 .name-project {
@@ -182,9 +179,10 @@ color: var(--color-navyblue);
    font-size: 20px;
    font-weight: 500;
    line-height: 1.2;
-
+   letter-spacing: 0.02em;
 }
 .branch {
-color: var(--color-primary);
-   
+   color: var(--color-primary);
+   line-height: 1.5;
+   letter-spacing: 0.02em;
 }
